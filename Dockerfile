@@ -2,7 +2,7 @@ FROM dockerfile/ruby
 MAINTAINER Jon Eisen <jon@joneisen.me>
 
 WORKDIR /app
-EXPOSE 4567
+EXPOSE 9292
 
 ADD . /app
 RUN bundle install
