@@ -7,4 +7,4 @@ EXPOSE 4567
 ADD . /app
 RUN bundle install
 
-CMD rackup
+CMD ["rackup"]
